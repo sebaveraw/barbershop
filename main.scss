@@ -1,0 +1,28 @@
+
+// 1. abstracts
+@import 'abstracts/_variables.scss';
+@import 'abstracts/_mixins.scss';
+
+// 2. vendors
+@import 'vendors/bootstrap-v4.5/bootstrap.scss';
+
+// 3. base
+@import 'base/_base.scss';
+@import 'base/_reset.scss';
+@import 'base/_typography.scss';
+
+// 4. components
+@import 'components/_buttons.scss';
+
+// 5. layout
+@import 'layout/_article.scss';
+@import 'layout/_author.scss';
+@import 'layout/_footer.scss';
+@import 'layout/_header.scss';
+@import 'layout/_navigation.scss';
+@import 'layout/_paginator.scss';
+
+
+// 6. pages
+
+// 7. theme

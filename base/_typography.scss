@@ -1,0 +1,25 @@
+// Font
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $tipo-main;
+  font-weight: $regular;
+  font-size: $xlarge;
+  }
+
+p{
+  font-family: $tipo-main;
+  font-weight: $regular;
+  font-size: $light;
+}
+
+
+.nav, .foot{
+  &_bg-oscuro {
+    background-color: $eerieblack;
+
+    img{
+      max-width: 5rem;
+    }
+  }
+    
+}

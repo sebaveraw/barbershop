@@ -1,0 +1,56 @@
+
+.tarjeta-autor {
+  border-top: thin solid $nickel;
+  border-bottom: thin solid $nickel;
+  .row {
+    margin-top: 7.25vh;
+    margin-bottom: 7.25vh;
+  }
+  &__imagen{
+    border-radius: 50%;
+    border: thin solid $nickel;
+    max-width: 133px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  &__detalles{
+    text-align: center;
+
+    &_texto-negro {
+      font-family: $tipo-titulo;
+      color: $eerieblack;
+      font-weight: $bold;
+      font-style: italic;
+      font-size: $xlarge;
+    }
+
+    &_texto-rosa {
+      color: $ruddypink;
+      font-size: $medium;
+      &:hover, &:visited{
+        color: $eerieblack;
+        text-decoration: none;
+      }
+      &:active{
+        color: $platinium;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      &_texto-rosa {
+        font-size: $large;
+      }
+      &__imagen {
+        max-width: 140px;
+      }
+      &__detalles{
+        padding-left: 4.5%;
+        margin-top: 0;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
